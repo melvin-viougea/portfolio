@@ -25,7 +25,7 @@ export const Skills = () => {
                 </div>
                 <div className="flex flex-col gap-2 flex-1">
                     <OpenAILogo size={42} />
-                    <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight">AI integration</h3>
+                    <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight">OpenAI</h3>
                     <p className="text-sm text-muted-foreground">I&apos;m an expert of integrating AI in your applications to create a perfect <u>user experience</u>.</p>
                 </div>
             </div>
