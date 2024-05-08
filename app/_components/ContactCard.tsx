@@ -28,7 +28,7 @@ export const ContactCard = (props: ContactCardProps) => {
                         alt={props.name}
                         width={500}
                         height={500}
-                        className="w-4 h-4 absolute -bottom-1 -right-1 rounded-md object-contain"
+                        className="w-4 h-4 absolute -bottom-1 -right-1 rounded object-contain"
                     />
                 </div>
                 <div className="mr-auto">

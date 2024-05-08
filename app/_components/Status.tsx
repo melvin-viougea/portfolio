@@ -9,7 +9,7 @@ import {SIDE_PROJECTS, STATUSCONTACTS, WORKS} from "@/app/_components/Data";
 export const Status = () => {
     return (
         <Section className="flex max-md:flex-col items-start gap-4">
-            <div className="flex-[3] w-full">
+            <div className="flex-1 w-full">
                 <Card className="w-full p-4 flex flex-col gap-2">
                     <p className="text-lg text-muted-foreground">Side, fun projects.</p>
                     <div className="flex flex-col gap-4">
@@ -22,7 +22,7 @@ export const Status = () => {
                     </div>
                 </Card>
             </div>
-            <div className="flex-[2] flex flex-col w-full h-full gap-4">
+            <div className="flex-1 flex flex-col w-full h-full gap-4">
                 <Card className="p-4 flex-1">
                     <p className="text-lg text-muted-foreground">Work</p>
                     <div className="flex flex-col gap-4">
