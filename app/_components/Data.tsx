@@ -6,25 +6,25 @@ export const SIDE_PROJECTS: SideProjectsProps[] = [
     {
         urlLogo: "/mve.png",
         title: "MaVieEtudiante",
-        description: "An application which aims to simplify the lives of students by providing innovative features for managing their academic and social life.",
+        description: "A comprehensive application designed to streamline students' lives, offering innovative tools for managing academic schedules, assignments, social events, and peer communication, all within a user-friendly interface.",
         url: "/"
     },
     {
         urlLogo: "/nBladesLogo.jpeg",
         title: "L'atelier NBlades",
-        description: "E-commerce application for selling handmade wooden table tennis rackets.",
+        description: "An exclusive e-commerce platform dedicated to the artistry of handcrafted wooden table tennis rackets, where each racket is meticulously crafted by skilled artisans, blending traditional woodworking techniques with contemporary design principles to deliver unparalleled performance and aesthetic appeal.",
         url: "https://www.lateliernblades.com/fr/"
     },
     {
         urlLogo: "/digitalExpressLogo.png",
         title: "DigitalExpress",
-        description: "A SaaS providing the restaurant with website templates and an iframe to integrate for the management of tables",
+        description: "Revolutionizing the restaurant industry with its Software as a Service (SaaS) solution, DigitalExpress empowers restaurant owners by providing customizable website templates and seamless integration options for efficient table management, online booking systems, and insightful analytics to enhance customer engagement and operational efficiency.",
         url: "https://dashboard.digital-express.cloud/"
     },
     {
         urlLogo: "/webLuminaLogo.png",
         title: "WebLumina",
-        description: "A studio for creating websites and web applications for all-sized businesses.",
+        description: "A dynamic web and mobile development studio committed to creating bespoke digital solutions for businesses of all scales, WebLumina harnesses cutting-edge technologies and creative expertise to deliver tailored websites and web applications that prioritize user experience, functionality, and scalability, ensuring clients' digital success in today's competitive landscape.",
         url: "/"
     },
 ];
