@@ -2,8 +2,8 @@ import React from 'react';
 import Section from "./Section";
 import Image from "next/image";
 import MelvinImage from "@/public/melvinImage.png";
-import MavieetudianteLogo from "@/public/mve.png";
-import FrenchImage from "@/public/french.png";
+import MavieetudianteLogo from "@/public/maVieEtudianteLogo.png";
+import FrenchLogo from "@/public/frenchLogo.png";
 import GithubIcon from "@/app/_components/icons/GitHubLogo";
 import Link from "next/link";
 import {Code} from "@/app/_components/Code";
@@ -31,7 +31,7 @@ export const Hero = () => {
                                 width={16}
                                 height={16}
                                 className="h-auto"
-                                alt="MaVieEtudiante logo"
+                                alt="MaVieEtudiante Logo"
                             />
                             MaVieEtudiante
                         </Code>
@@ -39,11 +39,11 @@ export const Hero = () => {
                     . Living in {" "}
                         <Code className="inline-flex items-center gap-2">
                             <Image
-                                src={FrenchImage}
+                                src={FrenchLogo}
                                 width={16}
                                 height={16}
                                 className="h-auto"
-                                alt="french flag"
+                                alt="French Flag"
                             />
                             France
                         </Code>

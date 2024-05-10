@@ -18,13 +18,13 @@ export const SIDE_PROJECTS: SideProjectsProps[] = [
     {
         urlLogo: "/digitalExpressLogo.png",
         title: "DigitalExpress",
-        description: "Revolutionizing the restaurant industry with its Software as a Service (SaaS) solution, DigitalExpress empowers restaurant owners by providing customizable website templates and seamless integration options for efficient table management, online booking systems, and insightful analytics to enhance customer engagement and operational efficiency.",
+        description: "Revolutionizing the restaurant industry, DigitalExpress empowers restaurant owners by providing customizable website templates and seamless integration options for efficient table management, online booking systems..",
         url: "https://dashboard.digital-express.cloud/"
     },
     {
         urlLogo: "/webLuminaLogo.png",
         title: "WebLumina",
-        description: "A dynamic web and mobile development studio committed to creating bespoke digital solutions for businesses of all scales, WebLumina harnesses cutting-edge technologies and creative expertise to deliver tailored websites and web applications that prioritize user experience, functionality, and scalability, ensuring clients' digital success in today's competitive landscape.",
+        description: "A dynamic web and mobile development studio committed to creating digital solutions for businesses of all scales, WebLumina harnesses cutting-edge technologies and creative expertise to deliver web and mogile applications that prioritize user experience, functionality, and scalability, ensuring clients digital success in today's competitive landscape.",
         url: "/"
     },
 ];
@@ -68,7 +68,7 @@ export const CONTACTS: ContactCardProps[] = [
     {
         name: "in/melvin-viougea",
         image: "/melvinImage.png",
-        mediumImage: "/linkedInIcon.png",
+        mediumImage: "/linkedInLogo.png",
         description: "+400 connections on LinkedIn",
         url: "https://www.linkedin.com/in/melvin-viougea/"
     },
