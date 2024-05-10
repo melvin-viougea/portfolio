@@ -15,6 +15,18 @@ export const SIDE_PROJECTS: SideProjectsProps[] = [
         description: "E-commerce application for selling handmade wooden table tennis rackets.",
         url: "https://www.lateliernblades.com/fr/"
     },
+    {
+        urlLogo: "/digitalExpressLogo.png",
+        title: "DigitalExpress",
+        description: "A SaaS providing the restaurant with website templates and an iframe to integrate for the management of tables",
+        url: "https://dashboard.digital-express.cloud/"
+    },
+    {
+        urlLogo: "/webLuminaLogo.png",
+        title: "WebLumina",
+        description: "A studio for creating websites and web applications for all-sized businesses.",
+        url: "/"
+    },
 ];
 
 export const WORKS: WorkProps[] = [
