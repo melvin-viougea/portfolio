@@ -10,7 +10,7 @@ export const SIDE_PROJECTS: SideProjectsProps[] = [
         url: "/"
     },
     {
-        urlLogo: "/nNBladesLogo.jpeg",
+        urlLogo: "/nBladesLogo.jpeg",
         title: "L'atelier NBlades",
         description: "E-commerce application for selling handmade wooden table tennis rackets.",
         url: "https://www.lateliernblades.com/fr/"
