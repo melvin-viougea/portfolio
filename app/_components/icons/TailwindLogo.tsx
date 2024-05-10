@@ -8,8 +8,10 @@ export const TailwindLogo = (props: ComponentPropsWithoutRef<"svg"> & {size?: nu
             viewBox="0 0 256 250"
             version="1.1"
             preserveAspectRatio="xMidYMid"
+            className="text-primary"
             {...props}
         >
+            <title>Tailwind</title>
             <defs>
                 <linearGradient x1="-2.77777778%" y1="32%" x2="100%" y2="67.5555556%" id="linearGradient-1">
                     <stop stopColor="currentColor" offset="0%"></stop>

@@ -1,112 +1,69 @@
 import {ContactCardProps} from "@/app/_components/ContactCard";
 import {SideProjectsProps} from "@/app/_components/SideProjects";
-import {Code, MessageCircle, Rss, StickyNote, Weight} from "lucide-react";
 import {WorkProps} from "@/app/_components/Work";
 
 export const SIDE_PROJECTS: SideProjectsProps[] = [
     {
-        Logo: Code,
-        title: "Next.js",
-        description: "The React Framework for Production",
-        url: "https://nextjs.org"
+        urlLogo: "/mve.png",
+        title: "MaVieEtudiante",
+        description: "An application which aims to simplify the lives of students by providing innovative features for managing their academic and social life.",
+        url: "/"
     },
     {
-        Logo: StickyNote,
-        title: "Next.js",
-        description: "The React Framework for Production",
-        url: "https://nextjs.org"
-    },
-    {
-        Logo: Rss,
-        title: "Next.js",
-        description: "The React Framework for Production",
-        url: "https://nextjs.org"
-    },
-    {
-        Logo: MessageCircle,
-        title: "Next.js",
-        description: "The React Framework for Production",
-        url: "https://nextjs.org"
-    },
-    {
-        Logo: Weight,
-        title: "Next.js",
-        description: "The React Framework for Production",
-        url: "https://nextjs.org"
+        urlLogo: "/NBladesLogo.jpeg",
+        title: "L'atelier NBlades",
+        description: "E-commerce application for selling handmade wooden table tennis rackets.",
+        url: "https://www.lateliernblades.com/fr/"
     },
 ];
 
 export const WORKS: WorkProps[] = [
     {
-        image: "https://media.licdn.com/dms/image/D4D0BAQHHOQcZ7NMgag/company-logo_100_100/0/1665497303071/solutions_909_logo?e=1723075200&v=beta&t=deog7-bsI48zDkGFMYFuc574f2QNQVbo8585sFOE96M",
+        image: "/solutions909Logo.jpeg",
         title: "Solutions 909",
-        role: "Développeur",
-        date: "2022 - Present",
+        role: "Web development / DevOps",
+        date: "Dec 2022 - Present · 18 months",
         url: "https://solutions909.fr",
-        alternance: true,
+        apprenticeship: true,
     },
     {
-        image: "https://media.licdn.com/dms/image/D4D0BAQHHOQcZ7NMgag/company-logo_100_100/0/1665497303071/solutions_909_logo?e=1723075200&v=beta&t=deog7-bsI48zDkGFMYFuc574f2QNQVbo8585sFOE96M",
+        image: "/solutions909Logo.jpeg",
         title: "Solutions 909",
-        role: "Développeur site web",
-        date: "Summer 2022",
+        role: "Web development",
+        date: "Jul 2022 - Aug 2022 · 2 months",
         url: "https://solutions909.fr",
         freelance: true,
     },
     {
-        image: "https://media.licdn.com/dms/image/D4D0BAQHHOQcZ7NMgag/company-logo_100_100/0/1665497303071/solutions_909_logo?e=1723075200&v=beta&t=deog7-bsI48zDkGFMYFuc574f2QNQVbo8585sFOE96M",
+        image: "/solutions909Logo.jpeg",
         title: "Solutions 909",
-        role: "Développeur site web",
-        date: "Winter - 2021",
+        role: "Web development",
+        date: "Jan 2022 - Feb 2022 · 2 months",
         url: "https://solutions909.fr",
-        stage: true,
+        internship: true,
     },
     {
-        image: "https://media.licdn.com/dms/image/C4E0BAQEX8mRWUSThuQ/company-logo_100_100/0/1630568703276/ccy_group_sas_logo?e=1723075200&v=beta&t=atOmiopWg3-2bstms2dndLMKrfKnji2kmJQuPSV5aBY",
+        image: "/computerisLogo.jpeg",
         title: "COMPUTERIS",
-        role: "Développeur site web",
-        date: "June 2021",
+        role: "Web development",
+        date: "June 2021 · 1 month",
         url: "https://computeris.fr",
-        stage: true,
-    },
-];
-
-export const STATUSCONTACTS: ContactCardProps[] = [
-    {
-        name: "@melvin",
-        image: "/contact.png",
-        mediumImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png",
-        description: "+400",
-        url: "https://www.linkedin.com/in/melvin-viougea/"
-    },
-    {
-        name: "Melvin Viougea",
-        image: "/contact.png",
-        mediumImage: "https://cdn-icons-png.flaticon.com/512/25/25231.png",
-        description: "+8 projects",
-        url: "https://github.com/melvin-viougea"
+        internship: true,
     },
 ];
 
 export const CONTACTS: ContactCardProps[] = [
     {
-        name: "@melvin",
-        image: "/contact.png",
-        mediumImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png",
-        description: "+400",
+        name: "in/melvin-viougea",
+        image: "/melvinImage.png",
+        mediumImage: "/linkedInIcon.png",
+        description: "+400 connections on LinkedIn",
         url: "https://www.linkedin.com/in/melvin-viougea/"
     },
     {
-        name: "Melvin Viougea",
-        image: "/contact.png",
-        mediumImage: "https://cdn-icons-png.flaticon.com/512/25/25231.png",
-        description: "+8 projects",
-        url: "https://github.com/melvin-viougea"
-    },
-    {
         name: "mviougea@icloud.com",
-        image: "/contact.png",
-        mediumImage: "https://upload.wikimedia.org/wikipedia/fr/a/a7/Mail_%28Apple%29_logo.png",
+        image: "/melvinDraw.png",
+        mediumImage: "/mailAppleLogo.png",
         description: "Email me for any inquiries",
         url: "mailto:mviougea@icloud.com"
     },

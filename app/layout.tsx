@@ -1,11 +1,12 @@
-import type { Metadata } from "next";
-import { Anek_Telugu } from "next/font/google";
+import type {Metadata} from "next";
+import {Anek_Telugu} from "next/font/google";
 import "./globals.css";
-import { GeistSans } from "geist/font/sans";
-import { GeistMono } from "geist/font/mono";
-import { Analytics } from "@vercel/analytics/react"
-import { SpeedInsights } from '@vercel/speed-insights/next';
+import {GeistSans} from "geist/font/sans";
+import {GeistMono} from "geist/font/mono";
+import {Analytics} from "@vercel/analytics/react"
+import {SpeedInsights} from '@vercel/speed-insights/next';
 import {cn} from "@/lib/utils";
+import {ReactNode} from "react";
 
 const AnekTelugu = Anek_Telugu({
   subsets: ["latin"],
@@ -20,7 +21,7 @@ export const metadata: Metadata = {
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode;
+  children: ReactNode;
 }>) {
   return (
     <html lang="en" className="h-full">

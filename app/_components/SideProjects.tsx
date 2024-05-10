@@ -1,9 +1,9 @@
 import Link from "next/link";
 import React from "react";
-import {LucideIcon} from "lucide-react";
+import Image from "next/image";
 
 export type SideProjectsProps = {
-    Logo: LucideIcon;
+    urlLogo: string;
     title: string;
     description: string;
     url: string;
@@ -11,10 +11,14 @@ export type SideProjectsProps = {
 
 export const SideProjects = (props: SideProjectsProps) => {
     return (
-        <Link href={props.url} className="inline-flex items-center gap-4 hover:bg-accent/50 transition-colors p-1 rounded">
-            <span className="bg-accent text-accent-foreground p-3 rounded-md">
-                <props.Logo size={16} />
-            </span>
+        <Link href={props.url} target="_blank" className="inline-flex items-center gap-4 hover:bg-accent/50 transition-colors py-1 px-2 rounded-md">
+            <Image
+                src={props.urlLogo}
+                alt={props.title}
+                width={500}
+                height={500}
+                className="w-10 h-10 object-contain rounded-md"
+            />
             <div>
                 <p className="text-lg font-semibold">{props.title}</p>
                 <p className="text-sm text-muted-foreground">{props.description}</p>

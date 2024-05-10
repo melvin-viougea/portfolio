@@ -9,14 +9,14 @@ export type WorkProps = {
     role: string;
     date: string;
     url: string;
-    stage?: boolean;
-    alternance?: boolean;
+    internship?: boolean;
+    apprenticeship?: boolean;
     freelance?: boolean;
 };
 
 export const Work = (props: WorkProps) => {
     return (
-        <Link href={props.url} className="inline-flex items-center gap-4 hover:bg-accent/50 transition-colors p-1 rounded">
+        <Link href={props.url} target="_blank" className="inline-flex items-center gap-4 hover:bg-accent/50 transition-colors py-1 px-2 rounded-md group">
             <Image
                 src={props.image}
                 alt={props.title}
@@ -25,13 +25,11 @@ export const Work = (props: WorkProps) => {
                 className="w-10 h-10 object-contain rounded-md"
             />
             <div className="mr-auto">
-                <div className="flex items-center gap-2">
-                    <p className="text-lg font-semibold">{props.title}</p>
-                    {props.stage && <Badge variant={"outline"}>Internship</Badge>}
-                    {props.alternance && <Badge variant={"outline"}>Alternance</Badge>}
-                    {props.freelance && <Badge variant={"outline"}>Mission</Badge>}
-                </div>
-                <p className="text-xs text-muted-foreground">{props.role}</p>
+                <p className="text-lg font-semibold">{props.title}</p>
+                {props.internship && <Badge variant={"outline"} className="group-hover:border-foreground">Internship</Badge>}
+                {props.apprenticeship && <Badge variant={"outline"} className="group-hover:border-foreground">Apprenticeship</Badge>}
+                {props.freelance && <Badge variant={"outline"} className="group-hover:border-foreground">Freelance</Badge>}
+                <p className="text-xs text-muted-foreground mt-1">{props.role}</p>
             </div>
             <p className="text-xs text-end text-muted-foreground">{props.date}</p>
         </Link>

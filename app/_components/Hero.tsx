@@ -1,12 +1,14 @@
 import React from 'react';
 import Section from "./Section";
 import Image from "next/image";
-import MelvinImage from "@/public/melvin.png";
+import MelvinImage from "@/public/melvinImage.png";
 import MavieetudianteLogo from "@/public/mve.png";
 import FrenchImage from "@/public/french.png";
 import GithubIcon from "@/app/_components/icons/GitHubLogo";
 import Link from "next/link";
 import {Code} from "@/app/_components/Code";
+import {Card} from "@/components/ui/card";
+import {ArrowUpRight} from "lucide-react";
 
 export const Hero = () => {
     return (
@@ -15,14 +17,14 @@ export const Hero = () => {
                 <h2 className="font-caption text-5xl font-bold text-primary">Melvin Viougea</h2>
                 <h3 className="font-caption text-3xl">Software developper</h3>
                 <p className="text-base">
-                    I love building a tons of new modern applications with new technologies and uploading them in {" "}
-                    <Link href="https://github.com/melvin-viougea">
+                    My <i className="inline-block my-1">love</i> for technology and innovation drives me to create a variety of modern applications using the <u className="inline-block my-1">latest available technologies</u> and uploading them in {" "}
+                    <Link href="https://github.com/melvin-viougea" target="_blank">
                         <Code className="inline-flex items-center gap-2">
-                            <GithubIcon size={16} className="inline" /> GitHub
+                            <GithubIcon size={16} className="inline"/> GitHub
                         </Code>
                     </Link>
-                    , currently I&apos;m working on a new project called {" "}
-                    <Link href="/">
+                    , currently I&apos;m working on an exciting project called {" "}
+                    <Link href="/" target="_blank">
                         <Code className="inline-flex items-center gap-2">
                             <Image
                                 src={MavieetudianteLogo}
@@ -34,8 +36,7 @@ export const Hero = () => {
                             MaVieEtudiante
                         </Code>
                     </Link>
-                    , Living in {" "}
-                    <Link href="/">
+                    . Living in {" "}
                         <Code className="inline-flex items-center gap-2">
                             <Image
                                 src={FrenchImage}
@@ -48,8 +49,25 @@ export const Hero = () => {
                         </Code>
                         {" "}
                         at Marseille.
-                    </Link>
                 </p>
+                <div className="flex max-md:flex-col gap-4 w-full">
+                    <Link href="/melvinViougeaCV.pdf" target="_blank" className="w-full">
+                        <Card className="p-3 bg-accent/10 hover:bg-accent/30 transition-colors group flex items-center gap-4">
+                            <div className="mr-auto">
+                                <p className="text-lg font-semibold">English Resume</p>
+                            </div>
+                            <ArrowUpRight size={16} className="group-hover:translate-x-2 group-hover:-translate-y-2 transition-transform mr-4" />
+                        </Card>
+                    </Link>
+                    <Link href="/melvinViougeaCV.pdf" target="_blank" className="w-full">
+                        <Card className="p-3 bg-accent/10 hover:bg-accent/30 transition-colors group flex items-center gap-4">
+                            <div className="mr-auto">
+                                    <p className="text-lg font-semibold">French Resume</p>
+                            </div>
+                            <ArrowUpRight size={16} className="group-hover:translate-x-2 group-hover:-translate-y-2 transition-transform mr-4" />
+                        </Card>
+                    </Link>
+                </div>
             </div>
             <div className="flex-[2] max-md:m-auto ml-auto">
                 <Image
