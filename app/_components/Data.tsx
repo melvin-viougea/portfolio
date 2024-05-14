@@ -7,7 +7,7 @@ export const SIDE_PROJECTS: SideProjectsProps[] = [
         urlLogo: "/maVieEtudianteLogo.png",
         title: "MaVieEtudiante",
         description: "A comprehensive application designed to streamline students' lives, offering innovative tools for managing academic schedules, assignments, social events, and peer communication, all within a user-friendly interface.",
-        url: "/"
+        url: "https://svenpiers05.wixsite.com/mon-bde"
     },
     {
         urlLogo: "/nBladesLogo.jpeg",
