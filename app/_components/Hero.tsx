@@ -24,7 +24,7 @@ export const Hero = () => {
                         </Code>
                     </Link>
                     , currently I&apos;m working on an exciting project called {" "}
-                    <Link href="/" target="_blank">
+                    <Link href="https://svenpiers05.wixsite.com/mon-bde" target="_blank">
                         <Code className="inline-flex items-center gap-2">
                             <Image
                                 src={MavieetudianteLogo}
