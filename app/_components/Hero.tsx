@@ -51,7 +51,7 @@ export const Hero = () => {
                         at Marseille.
                 </p>
                 <div className="flex max-md:flex-col gap-4 w-full">
-                    <Link  href="/melvinViougeaResume.pdf" target="_blank" className="w-full"  rel="noopener noreferrer" locale={false} download>
+                    <Link  href="/melvinViougeaEnsglishResume.pdf" target="_blank" className="w-full"  rel="noopener noreferrer" locale={false} download>
                         <Card className="p-3 bg-accent/10 hover:bg-accent/30 transition-colors group flex items-center gap-4">
                             <div className="mr-auto">
                                 <p className="text-lg font-semibold">English Resume</p>
@@ -59,7 +59,7 @@ export const Hero = () => {
                             <ArrowUpRight size={16} className="group-hover:translate-x-2 group-hover:-translate-y-2 transition-transform mr-4" />
                         </Card>
                     </Link>
-                    <Link  href="/melvinViougeaResume.pdf" target="_blank" className="w-full"  rel="noopener noreferrer" locale={false} download>
+                    <Link  href="/melvinViougeaFrenchResume.pdf" target="_blank" className="w-full"  rel="noopener noreferrer" locale={false} download>
                         <Card className="p-3 bg-accent/10 hover:bg-accent/30 transition-colors group flex items-center gap-4">
                             <div className="mr-auto">
                                     <p className="text-lg font-semibold">French Resume</p>
