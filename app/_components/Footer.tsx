@@ -1,4 +1,4 @@
-import Section from "@/app/_components/Section";
+import Section from "@/components/Section";
 
 export const Footer = () => {
     return (

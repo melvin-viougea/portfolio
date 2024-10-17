@@ -1,4 +1,4 @@
-import Section from "./Section";
+import Section from "../../components/Section";
 import GithubIcon from "@/app/_components/icons/GitHubLogo";
 import Link from "next/link";
 import {buttonVariants} from "@/components/ui/button";

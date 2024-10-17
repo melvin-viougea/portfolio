@@ -1,15 +1,9 @@
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
+import {SideProjectProps} from "@/types";
 
-export type SideProjectsProps = {
-    urlLogo: string;
-    title: string;
-    description: string;
-    url: string;
-};
-
-export const SideProjects = (props: SideProjectsProps) => {
+export const SideProjectCard = (props: SideProjectProps) => {
     return (
         <Link href={props.url} target="_blank" className="inline-flex items-center gap-4 hover:bg-accent/50 transition-colors py-1 px-2 rounded-md">
             <Image

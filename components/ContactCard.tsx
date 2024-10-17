@@ -2,14 +2,7 @@ import {Card} from "@/components/ui/card";
 import Image from "next/image";
 import {ArrowUpRight} from "lucide-react";
 import Link from "next/link";
-
-export type ContactCardProps = {
-    image: string;
-    mediumImage: string;
-    name: string;
-    description: string;
-    url: string;
-};
+import {ContactCardProps} from "@/types";
 
 export const ContactCard = (props: ContactCardProps) => {
     return (

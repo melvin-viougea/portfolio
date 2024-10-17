@@ -1,6 +1,6 @@
 import Header from "@/app/_components/Header";
 import Hero from "@/app/_components/Hero";
-import Spacing from "@/app/_components/Spacing";
+import Spacing from "@/components/Spacing";
 import Status from "@/app/_components/Status";
 import Skills from "@/app/_components/Skills";
 import Contact from "@/app/_components/Contact";
@@ -12,11 +12,11 @@ export default function Home() {
             <Header />
             <Spacing size="md" />
             <Hero />
-            <Spacing size="md" />
+            <Spacing size="sm" />
             <Status />
-            <Spacing size="md" />
+            <Spacing size="sm" />
             <Skills />
-            <Spacing size="md" />
+            <Spacing size="sm" />
             <Contact />
             <Spacing size="md" />
             <Footer />
