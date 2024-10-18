@@ -26,8 +26,8 @@ export const Work = (props: WorkProps) => {
       />
       <div className="mr-auto">
         <p className="text-lg font-semibold">{props.title}</p>
-        {props.internship && <Badge variant={"outline"} className="group-hover:border-foreground">Internship</Badge>}
-        {props.apprenticeship && <Badge variant={"outline"} className="group-hover:border-foreground">Apprenticeship</Badge>}
+        {props.internship && <Badge variant={"outline"} className="group-hover:border-foreground">Stage</Badge>}
+        {props.apprenticeship && <Badge variant={"outline"} className="group-hover:border-foreground">Alternance</Badge>}
         {props.freelance && <Badge variant={"outline"} className="group-hover:border-foreground">Freelance</Badge>}
         <p className="text-xs text-muted-foreground mt-1">{props.role}</p>
       </div>

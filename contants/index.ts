@@ -171,7 +171,7 @@ export const WORKS: WorkProps[] = [
     image: "/solutions909Logo.jpeg",
     title: "Solutions 909",
     role: "Développement web / DevOps",
-    date: "Déc 2022 - Présent · 18 mois",
+    date: "Déc 2022 - Nov 2024 · 24 mois",
     url: "https://solutions909.fr",
     apprenticeship: true,
   },
