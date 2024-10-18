@@ -19,19 +19,19 @@ import FirebaseLogo from "@/app/_components/icons/FirebaseLogo";
 export const WORK_PROJECTS: WorkProjectProps[] = [
   {
     title: "Super DPOs",
-    description: "Une application web permettant de recenser les réponse des entreprises aux demandes du RGPD, développée avec React. Elle offre une interface conviviale pour faciliter la gestion des conformités aux régulations, avec une accessibilité poussée.",
+    description: "Une application web pour centraliser les réponses des entreprises aux demandes du RGPD, développée avec React. Elle propose une interface intuitive qui facilite la gestion de la conformité aux régulations, tout en assurant une accessibilité optimale.",
   },
   {
     title: "Admin SDPOs",
-    description: "Une interface d'administration pour Super DPOs, permettant de gérer efficacement les données des entreprises enregistrées sur la plateforme, développée avec React.",
+    description: "Interface d'administration dédiée à Super DPOs, permettant une gestion efficace des données des entreprises enregistrées sur la plateforme, développée avec React.",
   },
   {
     title: "Admin Machine",
-    description: "Un outil d'administration complet pour la gestion de la société, des clients et des factures, utilisant React pour le frontend.",
+    description: "Outil d'administration complet pour la gestion des opérations de l'entreprise, incluant la gestion des clients et des factures, conçu avec React pour le frontend.",
   },
   {
     title: "API Symfony",
-    description: "API backend développée en PHP Symfony, conçue avec une architecture multi-database pour prendre en charge plusieurs clients. Elle est intégrée dans un environnement Docker, permettant de contenir, isoler et déployer les différents sites web associés aux projets Super DPOs, Admin SDPOs et Admin Machine, assurant ainsi une scalabilité et une sécurité renforcées.",
+    description: "API backend développée en PHP Symfony, conçue avec une architecture multi-database pour plusieurs clients. Intégrée dans un environnement Docker, elle permet d'isoler et de déployer les différents sites web associés à Super DPOs, Admin SDPOs et Admin Machine, assurant scalabilité et sécurité renforcées.",
   },
 ];
 
@@ -143,25 +143,25 @@ export const SIDE_PROJECTS: SideProjectProps[] = [
   {
     urlLogo: "/maVieEtudianteLogo.png",
     title: "MaVieEtudiante",
-    description: "Une application complète conçue pour simplifier la vie des étudiants, offrant des outils innovants pour gérer les emplois du temps, les devoirs, les événements sociaux et la communication entre pairs, le tout dans une interface conviviale.",
+    description: "Une application tout-en-un conçue pour faciliter la vie des étudiants, proposant des outils innovants pour gérer les emplois du temps, les devoirs, les événements sociaux et favoriser la communication entre pairs, le tout dans une interface intuitive.",
     url: "https://svenpiers05.wixsite.com/mon-bde"
   },
   {
     urlLogo: "/nBladesLogo.jpeg",
     title: "L'atelier NBlades",
-    description: "Une plateforme e-commerce exclusive dédiée à l'art de la fabrication artisanale de raquettes de tennis de table en bois, où chaque raquette est minutieusement fabriquée par des artisans qualifiés, combinant des techniques traditionnelles de menuiserie avec des principes de design contemporain pour offrir des performances et une esthétique incomparables.",
+    description: "Une plateforme e-commerce dédiée à la fabrication artisanale de raquettes de tennis de table en bois, chaque pièce étant soigneusement élaborée par des artisans qualifiés, alliant savoir-faire traditionnel et design contemporain pour une performance et une esthétique exceptionnelles.",
     url: "https://www.lateliernblades.com/fr/"
   },
   {
     urlLogo: "/digitalExpressLogo.png",
     title: "DigitalExpress",
-    description: "Révolutionnant l'industrie de la restauration, DigitalExpress permet aux restaurateurs de bénéficier de modèles de sites web personnalisables et d'options d'intégration fluide pour une gestion efficace des tables, des systèmes de réservation en ligne, etc.",
+    description: "Transformant le secteur de la restauration, DigitalExpress offre aux restaurateurs des modèles de sites web personnalisables et des options d'intégration fluides pour gérer efficacement les tables et les réservations en ligne.",
     url: "https://dashboard.digital-express.cloud/"
   },
   {
     urlLogo: "/webLuminaLogo.png",
     title: "WebLumina",
-    description: "Un studio de développement web et mobile dynamique engagé à créer des solutions numériques pour les entreprises de toutes tailles, WebLumina exploite les technologies de pointe et l'expertise créative pour offrir des applications web et mobiles qui priorisent l'expérience utilisateur, la fonctionnalité et l'évolutivité, assurant ainsi le succès numérique des clients dans le paysage concurrentiel actuel.",
+    description: "Un studio de développement web et mobile dynamique, WebLumina s'engage à créer des solutions numériques pour les entreprises de toutes tailles, en tirant parti des technologies avancées et d'une expertise créative pour offrir des applications qui mettent l'accent sur l'expérience utilisateur, la fonctionnalité et l'évolutivité.",
     url: "/"
   },
 ];
@@ -225,17 +225,17 @@ export const SKILLS: { category: string, skills: SkillCardProps[] }[] = [
       {
         logo: NextJsLogo,
         title: "Next.js",
-        description: "J'utilise Next.js pour le développement frontend, offrant des solutions web rapides et efficaces."
+        description: "J'utilise Next.js pour développer des applications web rapides, optimisées pour la performance."
       },
       {
         logo: TailwindLogo,
         title: "Tailwind",
-        description: "Je peux créer des interfaces utilisateur époustouflantes rapidement en utilisant TailwindCSS."
+        description: "Avec TailwindCSS, je conçois des interfaces modernes et réactives de manière efficace."
       },
       {
         logo: ReactLogo,
         title: "React",
-        description: "Je développe des interfaces utilisateur dynamiques et réactives avec React."
+        description: "Je crée des interfaces utilisateur interactives et réactives avec React, adaptées aux besoins du projet."
       },
     ]
   },
@@ -245,12 +245,12 @@ export const SKILLS: { category: string, skills: SkillCardProps[] }[] = [
       {
         logo: SpringBootLogo,
         title: "Spring Boot",
-        description: "Je maîtrise la construction de backends robustes et évolutifs avec Spring Boot."
+        description: "J'utilise Spring Boot pour la construction de backend fiables et évolutifs, adaptés à tout type de projet."
       },
       {
         logo: SymfonyLogo,
         title: "Symfony",
-        description: "J'utilise Symfony pour développer des applications web performantes avec aisance."
+        description: "Symfony me permet de développer des applications backend robustes, prêtes à évoluer avec les besoins."
       }
     ]
   },
@@ -260,17 +260,17 @@ export const SKILLS: { category: string, skills: SkillCardProps[] }[] = [
       {
         logo: FlutterLogo,
         title: "Flutter",
-        description: "Je crée de belles applications multiplateformes avec une apparence native en utilisant Flutter."
+        description: "Je conçois des applications multiplateformes avec Flutter, offrant une expérience utilisateur fluide, native-like."
       },
       {
         logo: SwiftLogo,
         title: "Swift",
-        description: "Je développe des applications iOS performantes avec Swift."
+        description: "Je développe des applications iOS rapides et performantes avec Swift, en optimisant l'interface et les fonctionnalités."
       },
       {
         logo: FirebaseLogo,
         title: "Firebase",
-        description: "J'utilise Firebase pour le développement d'applications mobiles avec des fonctionnalités cloud."
+        description: "Avec Firebase, j'intègre des fonctionnalités cloud pour enrichir les applications mobiles."
       }
     ]
   },
@@ -280,22 +280,22 @@ export const SKILLS: { category: string, skills: SkillCardProps[] }[] = [
       {
         logo: DockerLogo,
         title: "Docker",
-        description: "Je déploie et gère des applications efficacement avec Docker."
+        description: "Je déploie des applications en conteneur avec Docker, garantissant portabilité et flexibilité."
       },
       {
         logo: AnsibleLogo,
         title: "Ansible",
-        description: "Je gère la configuration et l'automatisation des déploiements avec Ansible."
+        description: "J'automatise la gestion des infrastructures et les déploiements avec Ansible pour des configurations uniformes."
       },
       {
         logo: GitLabLogo,
         title: "GitLab",
-        description: "Je mets en place des pipelines d'intégration continue avec GitLab CI pour automatiser le déploiement."
+        description: "Je configure des pipelines CI/CD avec GitLab CI pour automatiser et fiabiliser les déploiements."
       },
       {
         logo: AzureLogo,
         title: "Azure",
-        description: "J'utilise Microsoft Azure pour le déploiement et la gestion de solutions cloud."
+        description: "Avec Azure, je gère le déploiement et la scalabilité des applications dans un environnement cloud sécurisé."
       }
     ]
   },
@@ -305,21 +305,22 @@ export const SKILLS: { category: string, skills: SkillCardProps[] }[] = [
       {
         logo: JiraLogo,
         title: "Jira",
-        description: "J'utilise Jira pour la gestion de projets et la collaboration d'équipe avec la méthode agile."
+        description: "Jira est mon outil de choix pour gérer les projets en méthode agile et assurer une collaboration efficace."
       },
       {
         logo: OfficeLogo,
         title: "Office 365",
-        description: "Je maîtrise l'utilisation de la suite Office 365 pour la gestion de documents et la collaboration."
+        description: "Je maîtrise Office 365 pour la gestion de documents et la collaboration efficace en entreprise."
       },
       {
         logo: TeamsLogo,
         title: "Microsoft Teams",
-        description: "J'utilise Microsoft Teams pour la communication et la collaboration d'équipe en temps réel."
+        description: "J'utilise Microsoft Teams pour faciliter la communication et le travail d'équipe en temps réel."
       }
     ]
   }
 ];
+
 
 export const categories = [
   "Tous",
