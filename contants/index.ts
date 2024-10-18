@@ -206,7 +206,7 @@ export const CONTACTS: ContactCardProps[] = [
     name: "in/melvin-viougea",
     image: "/melvinImage.png",
     mediumImage: "/linkedInLogo.png",
-    description: "+400 connexions sur LinkedIn",
+    description: "+500 connexions sur LinkedIn",
     url: "https://www.linkedin.com/in/melvin-viougea/"
   },
   {
