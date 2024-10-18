@@ -19,24 +19,24 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({
-  children,
-}: Readonly<{
+                                     children,
+                                   }: Readonly<{
   children: ReactNode;
 }>) {
   return (
     <html lang="en" className="h-full">
-      <body
-          className={cn(
-            GeistSans.variable,
-            GeistMono.variable,
-            AnekTelugu.variable,
-            "font-sans h-full bg-background text-foreground"
-        )}
-      >
-        {children}
-        <Analytics />
-        <SpeedInsights />
-      </body>
+    <body
+      className={cn(
+        GeistSans.variable,
+        GeistMono.variable,
+        AnekTelugu.variable,
+        "font-sans h-full bg-background text-foreground"
+      )}
+    >
+    {children}
+    <Analytics/>
+    <SpeedInsights/>
+    </body>
     </html>
   );
 }

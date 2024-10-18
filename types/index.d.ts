@@ -15,6 +15,17 @@ declare type SideProjectProps = {
   url: string;
 };
 
+declare type WorkProjectProps = {
+  title: string;
+  description: string;
+};
+
+declare type SchoolProjectProps = {
+  title: string;
+  categories: string[];
+  description: string;
+};
+
 declare type SkillCardProps = {
   logo: React.ComponentType<{ size: number }>;
   title: string;
@@ -22,5 +33,5 @@ declare type SkillCardProps = {
 };
 
 declare type SpacingProps = {
-  size: "sm" | "md" | "lg";
+  size: "xs" | "sm" | "md" | "lg";
 };

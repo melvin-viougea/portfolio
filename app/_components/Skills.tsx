@@ -1,7 +1,7 @@
 import Section from "../../components/Section";
-import { Badge } from "@/components/ui/badge";
+import {Badge} from "@/components/ui/badge";
 import SkillCard from "@/components/SkillCard";
-import { SKILLS } from "@/contants";
+import {SKILLS} from "@/contants";
 
 export const Skills = () => {
   return (
